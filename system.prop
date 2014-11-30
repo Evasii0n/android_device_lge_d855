@@ -6,4 +6,4 @@ rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 ril.subscription.types=NV,RUIM
 ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
-telephony.lteOnCdmaDevice=0
+telephony.lteOnGsmDevice=1
