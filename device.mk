@@ -34,6 +34,8 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    hostapd_default.conf \
+    libwcnss_qmi \
     wcnss_service
 
 PRODUCT_COPY_FILES += \
