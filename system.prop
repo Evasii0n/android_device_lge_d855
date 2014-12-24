@@ -8,3 +8,4 @@ ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
 ro.telephony.get_imsi_from_sim=true
 telephony.lteOnGsmDevice=1
+telephony.lteOnCdmaDevice=0
