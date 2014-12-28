@@ -22,7 +22,6 @@ $(call inherit-product-if-exists, vendor/lge/d855/d855-vendor.mk)
 # Audio
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/configs/mixer_paths_qcwcn.xml:system/etc/mixer_paths.xml
-	
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -31,6 +30,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     init.galbi.bt.sh \
     init.galbi.bt_vendor.rc
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
 
 # Wifi
 PRODUCT_PACKAGES += \
